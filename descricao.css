@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+
+body{
+    background-image: url(imagens/fundo.jpg);
+}
+
+span{
+    color: red;
+    border: rgb(255, 166, 0) solid;
+    text-align: center;
+}
+.abc{
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#box {
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+}
+
+.car{
+    width: 200px;
+    margin: 35px;
+    
+}
+p{
+    color: red;
+    
+    border: rgb(255, 166, 0) solid;
+    display: inline-flex;
+    text-align: left;
+   
+}

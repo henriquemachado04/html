@@ -1,0 +1,165 @@
+body{
+    background-image: url(imagens/fundo.jpg);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: rgb(255, 174, 0);
+    border: none;
+}
+
+input, label{
+    display: block;
+    width: 100%;
+}
+
+input:focus, label:focus{
+    outline: none;
+}
+
+a{
+    color: red;
+}
+
+body{
+    padding-top: 5vh; /*view height -> 5% da tela */
+    background-image: url(imagens/fundo.cadastro.jpg);
+    background-size: cover;
+    background-position-y: -150px;
+}
+
+ /* form */
+ #main-container{
+     width: 500px;
+     margin-right: auto;
+     margin-left: auto;
+     background-color: white;
+     border-radius: 15px;
+     padding: 25px;
+ }
+
+ #main-container h1{
+     text-align: center;
+     margin-bottom: 25px;
+     font-size: 1.6rem; /* adapta o elemento root */
+ }
+
+ form{
+     display: flex;
+     flex-wrap: wrap; 
+     justify-content: space-between;
+ }
+
+ .full-box{
+     flex: 1 1 100%;
+     position: relative;
+ }
+
+ .half-box{
+     flex: 1 1 45%;
+     position: relative;
+ }
+
+ .spacing{
+     margin-right: 2.5%;
+ }
+
+ label{
+     font-weight: bold;
+     font-size: .8rem;
+ }
+
+ input{
+     border-bottom: 2px solid rgb(115, 255, 0);
+     padding: 6px;
+     font-size: .9rem;
+     margin-bottom: 40px;
+ }
+
+ input:focus{
+     border-color: rgb(255, 187, 0);
+ }
+
+ input[type="submit"] {
+    background-color: rgb(0, 185, 40);
+    color: #ffbb00;
+    border:3px rgb(0, 0, 0) solid;
+    border-radius: 15px;
+    cursor: pointer;
+ }
+
+ #agreement{
+    margin-right: 5px;
+ }
+
+ #agreement, #agreement-label{
+     display: inline-block;
+     width: auto;
+ }
+
+ /* validações */
+ .error-validation{
+     color: red;
+     position: absolute;
+     top: 57px;
+     font-size: .8rem;
+ }
+
+ .template{
+    display: none;
+ }
+
+/* Cores do botão*/
+select{
+    color: rgb(230, 0, 0);
+    background-color: black;
+}
+  
+  select:hover,
+  select:focus,
+  select:active,
+
+select:checked{
+        color: royalblue;
+}
+  
+select option{
+    background-color: black;
+    color: rgb(55, 226, 63);
+}
+  
+option [value=""][disabled] 
+{
+        display: none;
+}
+.btn1{
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 450px;
+}
+style.btn1{
+    background-color: #325;
+    color: #fff;
+    border: 3px #524 solid;
+    border-radius: 15px;
+}
+
+.btn1{
+    background-color: #000;
+    color: #ffbb00;
+    border:3px rgb(0, 185, 40) solid;
+    border-radius: 15px;
+    cursor: pointer;
+}   
+
+button:hover,
+button:focus,
+button:active,
+button:checked
+{
+    color: rgb(21, 255, 0);
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+
+body{
+    background-image: url(imagens/fundo.jpg);
+}
+
+select{
+    color: rgb(230, 0, 0);
+    background-color: black;
+}
+  
+  select:hover,
+  select:focus,
+  select:active,
+
+select:checked{
+        color: royalblue;
+}
+  
+select option{
+    background-color: black;
+    color: rgb(151, 17, 17);
+}
+  
+option [value=""][disabled] 
+{
+        display: none;
+}
+
+style.btn1{
+    background-color: #325;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border: 3px #524 solid;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.btn1{
+    background-color: #000;
+    color: #bf171a;
+    width: 150px;
+    height: 40px;
+    border:3px #000 solid;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+}   
+
+button:hover,
+button:focus,
+button:active,
+button:checked
+{
+    color: royalblue;
+}
+
+option
+    [value=""][disabled] 
+{
+    display: none;
+}
+
+*
+{
+    text-align: center;
+    margin: 1px ;
+    padding: 1px;
+}
+
+.produtos div img{
+        width: 100%;
+    }
+
+#displayed{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+}
+h1{
+    color: rgb(255, 166, 0);
+    text-align: center;
+}
+
+
+p{
+    color: red;
+    font-size: 14px;
+    border: rgb(255, 166, 0) solid;
+    width: 107px;
+}
+    
+#box {
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+}
+
+span{
+    color: red;
+    font-size: 15px;
+    border: rgb(0, 0, 0) solid;
+    width: 15px;
+    height: 20px;
+    text-align: center;
+}
+
